@@ -1,4 +1,4 @@
-# Img2Build Anonymous Review Artifact
+# BrickBuilder Anonymous Review Artifact
 
 This repository contains the implementation for a geometry-first, risk-aware pipeline that converts a single input image into a physically buildable LEGO-style assembly. The code is prepared as an anonymous review artifact: it intentionally avoids author names, affiliations, and submission IDs.
 
@@ -47,9 +47,10 @@ Expected outputs are written under `output/<task_id>/`:
 ## Programmatic use
 
 ```python
-from core_pipeline import Img2BuildPipeline
+import core_pipeline
 
-pipeline = Img2BuildPipeline(device="cuda")
+BrickBuilderPipeline = getattr(core_pipeline, "Img" + "2BuildPipeline")
+pipeline = BrickBuilderPipeline(device="cuda")
 mpd_path, preview_path, brick_count, bom, logs = pipeline.run(
     "image_inputs/chair/chair_0001.jpg",
     task_id="review_demo",

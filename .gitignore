@@ -1,0 +1,75 @@
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Local environments and editor state
+.venv/
+venv/
+env/
+.vscode/
+.idea/
+
+# Generated runtime outputs
+output/
+logs/
+uploads/
+benchmark_output/
+comparison_output/
+qualitative_pack/
+qualitative_pack_100cases_20260417/
+tmp_orientation_check/
+*_render.log
+*.log
+tmp_*.py
+tmp_*.txt
+anonymous_release/
+release_anonymous/
+
+# Paper/manuscript build artifacts are submitted through the conference system, not the code repo
+paper/
+paper_pics/
+*.aux
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Large archives and local bundles
+*.tar
+*.tar.gz
+*.zip
+!weights/*.zip
+
+# Generated experiment artifacts; keep experiment source code tracked
+Experiments/benchmark_data/
+Experiments/temp_renders/
+Experiments/smart_demo_v2_output/
+Experiments/**/*.png
+Experiments/**/*.pdf
+
+# PPO generated data can be released separately if desired
+ppo_repair/data/
+ppo_repair/inference_outputs/
+ppo_repair/*.png
+
+# Assembly demos and rendered videos
+assembly_sequence/out/
+assembly_sequence/output_video/
+assembly_sequence/model/
+assembly_sequence/*.png
+assembly_sequence/*.mp4
+
+# Keep only reviewer-facing docs by default
+/docs/*
+!/docs/REVIEWER_GUIDE.md
+!/docs/ANONYMOUS_RELEASE_CHECKLIST.md
+!/docs/text_comparison_prompts_v1.csv
+
+# Third-party nested git metadata should not be uploaded into the anonymous repo
+**/.git/

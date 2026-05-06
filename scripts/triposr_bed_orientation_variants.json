@@ -1,0 +1,6 @@
+{
+  "tri_rot_x_90_mirror_z": ["rot_x_90", "mirror_z"],
+  "tri_rot_x_90_mirror_z_rot_z_180": ["rot_x_90", "mirror_z", "rot_z_180"],
+  "tri_rot_x_270_mirror_z": ["rot_x_270", "mirror_z"],
+  "tri_rot_x_270_mirror_z_rot_z_180": ["rot_x_270", "mirror_z", "rot_z_180"]
+}

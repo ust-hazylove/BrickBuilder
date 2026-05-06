@@ -1,0 +1,6 @@
+{
+  "inst_rot_x_90": ["rot_x_90"],
+  "inst_rot_x_270": ["rot_x_270"],
+  "inst_rot_x_90_rot_z_180": ["rot_x_90", "rot_z_180"],
+  "inst_rot_x_270_rot_z_180": ["rot_x_270", "rot_z_180"]
+}

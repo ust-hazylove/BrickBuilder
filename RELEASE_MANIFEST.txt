@@ -1,0 +1,24 @@
+copy file: .gitignore
+copy file: README.md
+copy file: requirements.txt
+copy file: requirements_hunyuan3d_lego_finetune.txt
+copy file: environments.yaml
+copy file: app.py
+copy file: core_pipeline.py
+copy file: all_case_metrics.csv
+copy file: benchmark_batch.py
+copy file: comprehensive_benchmark.py
+copy file: fix_ldr_orientation.py
+copy file: mapping_vis.py
+copy file: docs/REVIEWER_GUIDE.md
+copy file: docs/ANONYMOUS_RELEASE_CHECKLIST.md
+copy file: docs/text_comparison_prompts_v1.csv
+copy dir: modules
+copy dir: weights
+copy dir: image_inputs
+copy dir: scripts
+copy dir: ppo_repair
+copy dir: assembly_sequence
+copy dir: Experiments
+skip optional dir: Hunyuan3D-2 (use --include-hunyuan-vendor)
+skip optional dir: ppo_repair/data (use --include-ppo-training-data)

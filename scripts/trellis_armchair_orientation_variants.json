@@ -1,0 +1,8 @@
+{
+  "identity": ["identity"],
+  "rot_x_90": ["rot_x_90"],
+  "rot_x_270": ["rot_x_270"],
+  "rot_x_180": ["rot_x_180"],
+  "rot_x_90_mirror_z": ["rot_x_90", "mirror_z"],
+  "rot_x_270_mirror_z": ["rot_x_270", "mirror_z"]
+}

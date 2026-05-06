@@ -1,0 +1,16 @@
+torch
+torchvision
+diffusers
+transformers>=4.48.0
+accelerate
+peft
+trimesh
+numpy
+Pillow
+opencv-python
+einops
+omegaconf
+pyyaml
+scikit-image
+safetensors
+tqdm

@@ -59,11 +59,3 @@ mpd_path, preview_path, brick_count, bom, logs = pipeline.run(
 )
 print(mpd_path, preview_path, brick_count)
 ```
-
-## Reviewer guide
-
-See `docs/REVIEWER_GUIDE.md` for a detailed walkthrough of the algorithm, environment setup, demo/API commands, training commands, benchmark notes, and anonymous-release checklist.
-
-## Anonymous-release note
-
-This artifact is for double-blind review. Please keep the repository name, remote URL, commit metadata, and README free of author-identifying information until the review period ends.

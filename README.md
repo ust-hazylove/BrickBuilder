@@ -1,4 +1,4 @@
-# BrickBuilder Anonymous Review Artifact
+# BrickBuilder
 
 This repository contains the implementation for a geometry-first, risk-aware pipeline that converts a single input image into a physically buildable LEGO-style assembly. The code is prepared as an anonymous review artifact: it intentionally avoids author names, affiliations, and submission IDs.
 
